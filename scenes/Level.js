@@ -1,17 +1,11 @@
-class Load extends Phaser.State {
-	constructor(){
-		super();
-	}
+var Load = {
+	preload: function () {
 
-	preload(){
-		
-	}
+	},
+	create: function () {
 
-	create(){
-		
-	}
+	},
+	update: function () {
 
-	update(){
-		
 	}
 }
