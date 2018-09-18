@@ -1,4 +1,4 @@
-var Load = function(){
+var Load = function () {
 	this.preload = function () {
 		game.state.backgroundColor = "#fff";
 		// 加载游戏资源
@@ -21,13 +21,13 @@ var Load = function(){
 	}
 }
 
-var Logo = function(){
-	this.preload = function(){
+var Logo = function () {
+	this.preload = function () {
 		var logo = game.add.image(game.world.centerX, game.world.centerY, "logo");
 		logo.width = logo.width / 2;
 		logo.height = logo.height / 2;
 		logo.anchor.set(0.5, 0.5);
-		setTimeout(function(){
+		setTimeout(function () {
 			game.state.start("Menu");
 		}, 1000);
 	}
